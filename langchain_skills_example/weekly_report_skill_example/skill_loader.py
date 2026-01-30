@@ -28,7 +28,9 @@ def load_report_skill(skill_name: str) -> str:
         "daily_report": "daily-report",
         "weekly_report": "weekly-report",
         "daily-report": "daily-report",
-        "weekly-report": "weekly-report"
+        "weekly-report": "weekly-report",
+        "planner": "planner-skill",
+        "planner-skill": "planner-skill"
     }
     
     folder_name = mapping.get(skill_name, skill_name)
